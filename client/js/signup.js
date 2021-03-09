@@ -61,15 +61,6 @@ const handle_signup = () => {
 // .then(console.log);
 
 
-
-// dwitter
-// .methods.follow("0xb97C25D4AB834DAf9f19C3521A243e75d0aFf29A").send({
-//     from: "0xe107A1dC633465043211b9c6E12c9fd5a5859659",
-//     gas: "3000000",
-//     gasPrice: "1000000"
-// })
-// .then(console.log);
-
 // dwitter
 // .methods.likeTweets("0xb97C25D4AB834DAf9f19C3521A243e75d0aFf29A").send({
 //     from: "0xe107A1dC633465043211b9c6E12c9fd5a5859659",

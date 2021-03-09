@@ -23,8 +23,8 @@ searchBtn.addEventListener("click",handleSearch);
 //---------------------Buttons Event Handling------------------
 
 const handle_search = () => {
-
     const search_user_address = document.getElementById("userAddressData").value;
+    sessionStorage.setItem("follow", search_user_address);
     userAddress = sessionStorage.getItem("logs");
     const options = {
         from: userAddress,
